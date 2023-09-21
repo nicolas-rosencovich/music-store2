@@ -1,0 +1,70 @@
+body {
+    background-image: url("../assets/images/music-store2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #section1 {
+    border: 2px solid rgb(240, 5, 5);
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    width: 50%;
+    margin: 80px auto 0 auto;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+  }
+  #section2 {
+    border: 2px solid rgb(13, 175, 37);
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    width: 50%;
+    margin: 80px auto 0 auto;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    position: relative;
+  }
+  li {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 5px solid black;
+    font-size: 1.5rem;
+  }
+ #section1 li:hover {
+    border: 2px solid rgb(240, 5, 5);
+  }
+  #section2 li:hover {
+    border: 2px solid rgb(13, 175, 37);
+  }
+  li span {
+    color: gold;
+  }
+  #sala-estudio li {
+  display: inline-block; 
+  }
+  #sala-estudio {
+    min-height: 140px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 1rem;
+    font-weight: 400;
+  }
+  #oro {
+    color: gold;
+    font-size: 3rem;
+  }
